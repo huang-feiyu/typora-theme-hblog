@@ -3,15 +3,13 @@
     --control-text-color: #777;
 }
 
-@include-when-export url(https://fonts.googleapis.com/css2?family=Noto+Serif+SC&family=Source+Code+Pro&display=swap);
-
 html {
     font-size: 18px;
     -webkit-font-smoothing: antialiased;
 }
 
 #write {
-    max-width: 930px;
+    max-width: 860px;
   	margin: 0 auto;
   	padding: 30px;
     padding-bottom: 100px;
@@ -53,7 +51,7 @@ h4,h5,h6 {
 }
 
 body {
-    font-family: "Noto Serif SC","Helvetica","Arial",sans-serif
+    font-family: "Noto Serif","Noto Serif SC","Helvetica","Arial",sans-serif
 }
 
 body img {
@@ -70,14 +68,14 @@ p {
     margin-left: 0;
     margin-right: 0;
     line-height: 1.65;
-    font-family: "Noto Serif SC","Helvetica","Arial",sans-serif
+    font-family: "Noto Serif","Noto Serif SC","Helvetica","Arial",sans-serif
 }
 
 ul,ol,dl {
     margin-top: 1rem;
     margin-bottom: 1rem;
     margin-left: 1.5rem;
-    font-family: "Noto Serif SC","Helvetica","Arial",sans-serif
+    font-family: "Noto Serif","Noto Serif SC","Helvetica","Arial",sans-serif
 }
 
 ol li {
